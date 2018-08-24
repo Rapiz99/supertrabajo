@@ -1,0 +1,52 @@
+body{
+	background-color: red;
+}
+
+@font-face{
+	font-family: "titulo";
+	src:url('../fuentes/titulo.otf.');
+	
+}
+
+@font-face{
+	font-family: "text";
+	src:url('../fuentes/text.ttf');
+	
+}
+
+@font-face{
+	font-family: "car";
+	src:url('../fuentes/car.ttf');
+	
+}
+
+
+
+h1{
+	font-family: titulo;
+	font-size: 45px;
+	color: black;
+	text-align: center;
+
+
+}
+
+h2{
+	font-family: text;
+	font-size: 30px;
+	color: black;
+	text-align: center;
+}
+
+h3{
+font-family: car;
+	font-size: 40px;
+	color: black;
+	text-align: center;	
+}
+
+
+img{
+	display: block;
+	margin: 0 auto;
+
